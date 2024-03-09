@@ -1,0 +1,12 @@
+    r"user[_]?name",  
+    r"(pass|PASS|Pass_Word|PASS_WORD)",  
+    r"\bsocial[_ ]*security[_ ]*number\b",  
+    r"\bcredit[_ ]*card[_ ]*number\b",  
+    r"\bexpiration[_ ]*date\b",  
+    r"\bcvv\b",  
+    r"\bAPI[_]?\w*", 
+    r"\bAPI[_ ]*Key\b",  
+    r"\bSecret[_]*Key\b",  
+    r"\bSecret[_]?\w*",  
+    r"\b\w*Key\b",
+

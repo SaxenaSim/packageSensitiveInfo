@@ -1,0 +1,1 @@
+user[_]?name,pass|PASS|Pass_Word|PASS_WORD,social[_ ]*security[_ ]*number,credit[_ ]*card[_ ]*number,expiration[_ ]*date,cvv,API[_]?\w*,API[_ ]*Key,Secret[_]*Key,Secret[_]?\w*,\w*Key
