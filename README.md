@@ -35,13 +35,22 @@ This utility package is designed to detect sensitive information or secrets with
 
 Once the package is installed, you can use the utility package as follows:
 
-1. **Run the Utility:**
+1. **Run the utility:**
 
-   a. With a File Path:
+   a. Importing the packages:
    ```bash
-   python your_script.py path/to/your/file.txt
-   python your_script.py "your content string"  # with content string
-
+   import package_name
+   from package_name.module_name import className
+   ```
+   b. Creating objects:
+   ```bash
+   obj = className()
+   ```
+   c. Call methods or access attributes of object:
+   ```bash
+   result = obj.method_name()
+   print(result)
+   ```
 
 ## Testing
 
