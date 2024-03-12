@@ -1,8 +1,9 @@
 from setuptools import setup , find_packages
+from src.version import __version__
 
 setup(
     name='packageSensitiveInfo',
-    version='1.0.0',
+    version=__version__,
     author='Simran',
     author_email='simran.saxena@dataverze.ai',
     description='It contains data and regex patterns in 2 separate files. My package validates how many regex patterns matches the data.',
