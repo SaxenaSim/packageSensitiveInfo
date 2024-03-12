@@ -39,16 +39,16 @@ Once the package is installed, you can use the utility package as follows:
 
    a. Importing the packages:
    ```bash
-   import package_name
-   from package_name.module_name import className
+   import src
+   from src.detection import detection
    ```
    b. Creating objects:
    ```bash
-   obj = className()
+   obj = detection()
    ```
    c. Call methods or access attributes of object:
    ```bash
-   result = obj.method_name()
+   result = obj.find_matches()
    print(result)
    ```
 
